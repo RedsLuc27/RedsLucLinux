@@ -39,6 +39,10 @@ in the boot directory run:
 grub-mkrescue -o RedsLucLinux.iso iso
 You will have the iso to run in VMWare
 
+User are:
+root: without passwd
+user: without passwd
+
 - Qemu:
 qemu-system-x86_64     -kernel bzImage     -initrd initramfs.cpio     -append "console=tty0"
 
