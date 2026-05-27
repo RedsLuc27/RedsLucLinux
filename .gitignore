@@ -1,0 +1,5 @@
+*.iso
+*.cpio
+bzImage
+rootfs.img
+*.img
